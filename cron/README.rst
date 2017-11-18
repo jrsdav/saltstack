@@ -1,21 +1,25 @@
 ============
-Cron Fomula
+Cron Formula
 ============
 
-A simple linux formula used to manage cron jobs.
+A simple linux formula used to manage cron jobs. This was borrowed from the official SaltStack **salt-formula-linux** repo to function as a standalone state.
 
-To use, include in your state:
+    https://github.com/salt-formulas/salt-formula-linux
+
+To use, add **cron** to your state tree and include it in your state:
 
 .. code-block:: yaml
+
     include:
       - cron
 
 Pillar Example
 ------------
 
-Heere is an example of what your pillar data should look like:
+Here is an example of the pillar data structure:
 
 .. code-block:: yaml
+
     cron:
       job:
         cmd1:
