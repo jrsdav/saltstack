@@ -6,7 +6,7 @@ A simple linux formula used to manage cron jobs. This was borrowed from the offi
 
     https://github.com/salt-formulas/salt-formula-linux
 
-To use, add **cron** to your state tree and include it in your state:
+To use, add **cron** to your pillar tree (see example below) and include it in your state:
 
 .. code-block:: yaml
 
