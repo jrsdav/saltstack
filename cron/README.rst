@@ -23,14 +23,14 @@ Here is an example of the pillar data structure:
     cron:
       job:
         cmd1:
-          name: '/cmd/to/run'
+          command: '/cmd/to/run'
           identifier: cmd1
           enabled: true
           user: 'root'
           hour: 2
           minute: 0
         cmd2:
-          name: '/cmd/to/run'
+          command: '/cmd/to/run'
           identifier: cmd2
           enabled: true
           user: 'bob'
@@ -38,7 +38,7 @@ Here is an example of the pillar data structure:
           dayweek: 4
           minute: 15
         cmd3:
-          name: '/cmd/to/run'
+          command: '/cmd/to/run'
           identifier: cmd3
           enabled: false 
           user: 'user'
